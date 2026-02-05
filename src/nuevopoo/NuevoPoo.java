@@ -49,14 +49,14 @@ public class NuevoPoo extends PApplet {
         hatBrim.setColor(50);
         hatBrim.getDimension().setHorizontal(100);
         hatBrim.getDimension().setVertical(10);
-        hatBrim.getPosicion().setX(centerX - 50); // Centered (offset by half width)
+        hatBrim.getPosicion().setX(centerX - 50);
         hatBrim.getPosicion().setY(205);
 
         hatTop = new Caja();
         hatTop.setColor(50);
         hatTop.getDimension().setHorizontal(60);
         hatTop.getDimension().setVertical(70);
-        hatTop.getPosicion().setX(centerX - 30); // Centered
+        hatTop.getPosicion().setX(centerX - 30);
         hatTop.getPosicion().setY(135);
 
         // Ojos
@@ -118,7 +118,7 @@ public class NuevoPoo extends PApplet {
 
     @Override
     public void draw() {
-        background(20, 25, 50); // Light Grey Background
+        background(20, 25, 50); // Fondo de noche
         
         // Dibujar cuerpo
         base.dibujar(this);
