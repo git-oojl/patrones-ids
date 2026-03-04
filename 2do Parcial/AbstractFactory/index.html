@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <!-- CSS del tema (se cambia con AbstractFactory) -->
+    <link id="theme-css" rel="stylesheet" href="styles/minimalist.css">
+
+    <title>Abstract Factory - Formularios</title>
+</head>
+<body class="container">
+    <div class="row mb-4 text-center mt-5">
+        <label class="fs-1">Formulario de datos</label>
+    </div>
+
+    <!-- Selector de familia -->
+    <div class="row mb-4">
+        <div class="offset-3 col-6">
+            <label class="form-label">Tema (familia):</label>
+            <select id="theme-select" class="form-select"></select>
+        </div>
+    </div>
+
+    <!-- Aquí se dibuja el formulario -->
+    <div id="main-content"></div>
+
+    <!-- Bundle incluye Popper (necesario para dropdown) -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
